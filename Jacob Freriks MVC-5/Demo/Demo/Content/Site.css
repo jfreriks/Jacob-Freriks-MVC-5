@@ -1,0 +1,68 @@
+﻿/* Background and Body ------------------------------*/
+body
+{
+font: "Trebuchet MS", Verdana, sans-serif;
+background-image: url("Images/2xcluster.jpg");
+color: #696969;
+}
+h1
+{
+border-bottom: 3px solid #000000;
+font: Georgia, serif;
+color: #000000;
+}
+#main
+{
+padding: 20px;
+background-color: #ffffff;
+border-radius: 30px 30px 30px 30px;
+}
+a
+{
+color: #034af3;
+}
+/* Menu Styles ------------------------------*/
+ul#menu
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+ul#menu li
+{
+float: left;
+}
+ul#menu li a
+{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+ul#menu li a:hover
+{
+background-color: #111;
+}
+
+/* Data Styles ------------------------------*/
+table.data
+{
+background-color:#ffffff;
+border:1px solid #c3c3c3;
+border-collapse:collapse;
+width:100%;
+}
+table.data th
+{
+background-color:#e8eef4;
+border:1px solid #c3c3c3;
+padding:3px;
+}
+table.data td
+{
+border:1px solid #c3c3c3;
+padding:3px;
+} 
